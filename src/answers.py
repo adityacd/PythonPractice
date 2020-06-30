@@ -88,3 +88,11 @@ def disemvowel(text):
     print("".join([x for x in text if x not in vow]))
 
 disemvowel(text)
+
+#Solution 12
+nums = [72, 26, 79, 70, 20, 68, 43, -71, 71, -2]
+
+def wiggle_numbers(nums):
+    print([x*2 if x%2==0 else -x for x in nums])
+
+wiggle_numbers(nums)
