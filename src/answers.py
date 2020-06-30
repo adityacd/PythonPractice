@@ -79,3 +79,12 @@ def vowels_set(text):
     print(list({x for x in text if x in vow}))
 
 vowels_set(text)
+
+#Solution 11
+text = 'the quick brown fox jumps over the lazy dog'
+
+def disemvowel(text):
+    vow = ['a', 'e', 'i', 'o', 'u']
+    print("".join([x for x in text if x not in vow]))
+
+disemvowel(text)
