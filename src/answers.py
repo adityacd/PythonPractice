@@ -96,3 +96,14 @@ def wiggle_numbers(nums):
     print([x*2 if x%2==0 else -x for x in nums])
 
 wiggle_numbers(nums)
+
+#Solution 13
+text = 'the quick brown fox jumps over the lazy dog'
+
+def encrypt_lol(text):
+    # b = bytes(text, 'utf-8')
+    num_array = [bytes(text, 'utf-8')[x] for x in range(0, len(bytes(text, 'utf-8')))]
+    k = "".join([chr(x + 1) for x in num_array])
+    print(k.replace('!', ' '))
+
+encrypt_lol(text)
