@@ -61,3 +61,12 @@ def words_not_the(text):
     print([len(x) for x in [word for word in text.split()] if x != 'the'])
 
 words_not_the(text)
+
+#Solution 9
+text = 'mathematics'
+
+def vowels(text):
+    vow = ['a', 'e', 'i', 'o', 'u']
+    print([x for x in text if x in vow])
+
+vowels(text)
