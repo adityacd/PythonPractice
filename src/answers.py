@@ -1,4 +1,4 @@
-#Solution 1
+#Solution 1 :  Given a list of numbers, write a list comprehension that produces a copy of the list.
 nums = [1, 2, 3, 4, 5]
 
 def identity(nums):
@@ -6,7 +6,7 @@ def identity(nums):
 
 identity(nums)
 
-#Solution 2
+#Solution 2 : Given a list of numbers, write a list comprehension that produces a list of each number doubled
 nums = [1, 2, 4, 6, 8, 33, 78]
 
 def doubled(nums):
@@ -14,7 +14,7 @@ def doubled(nums):
 
 doubled(nums)
 
-#Solution 3
+#Solution 3 : Given a list of numbers, write a list comprehension that produces a list of the squares of each number.
 nums = [1, 2, 4, 6, 8, 100, 78]
 
 def squared(nums):
@@ -22,7 +22,7 @@ def squared(nums):
 
 squared(nums)
 
-#Solution 4
+#Solution 4 : Given a list of numbers, write a list comprehension that produces a list of only the even numbers in that list.
 nums = [1, 2, 4, 6, 8, 100, 78]
 
 def evens(nums):
@@ -30,7 +30,7 @@ def evens(nums):
 
 evens(nums)
 
-#Solution 5
+#Solution 5 : Given a list of numbers, write a list comprehension that produces a list of only the odd numbers in that list.
 nums = [1, 2, 3, 7, 8, 100, 79, 333, 12, 18, 93]
 
 def odds(nums):
@@ -38,7 +38,7 @@ def odds(nums):
 
 odds(nums)
 
-#Solution 6
+#Solution 6 : Given a list of numbers, write a list comprehension that produces a list of only the positive numbers in that list.
 nums = [1, 2, 3, -7, 8, 100, -79, 333, 12, -18, 93]
 
 def positive(nums):
@@ -46,7 +46,7 @@ def positive(nums):
 
 positive(nums)
 
-#Solution 7
+#Solution 7 :  Given a list of numbers, write a list comprehension that produces a list of strings of each number that is divisible by 5.
 nums = [1, 2, 3, -7, 8, 100, -79, 333, 12, -18, 93]
 
 def selective_stringify_nums(nums):
@@ -54,7 +54,7 @@ def selective_stringify_nums(nums):
 
 selective_stringify_nums(nums)
 
-#Solution 8
+#Solution 8 : Given a sentence, produce a list of the lengths of each word in the sentence, but only if the word is not 'the'.
 text = 'the quick brown fox jumps over the lazy dog'
 
 def words_not_the(text):
@@ -62,7 +62,7 @@ def words_not_the(text):
 
 words_not_the(text)
 
-#Solution 9
+#Solution 9 : Given a string representing a word, write a list comprehension that produces a list of all the vowels in that word.
 text = 'mathematics'
 
 def vowels(text):
@@ -71,7 +71,7 @@ def vowels(text):
 
 vowels(text)
 
-#Solution 10
+#Solution 10 : Given a string representing a word, write a set comprehension that produces a set of all the vowels in that word.
 text = 'mathematics'
 
 def vowels_set(text):
@@ -80,7 +80,7 @@ def vowels_set(text):
 
 vowels_set(text)
 
-#Solution 11
+#Solution 11 : Given a sentence, return the sentence with all vowels removed.
 text = 'the quick brown fox jumps over the lazy dog'
 
 def disemvowel(text):
@@ -89,7 +89,7 @@ def disemvowel(text):
 
 disemvowel(text)
 
-#Solution 12
+#Solution 12 : Given a list of number, return the list with all even numbers doubled, and all odd numbers turned negative.
 nums = [72, 26, 79, 70, 20, 68, 43, -71, 71, -2]
 
 def wiggle_numbers(nums):
@@ -97,7 +97,7 @@ def wiggle_numbers(nums):
 
 wiggle_numbers(nums)
 
-#Solution 13
+#Solution 13 :  Given a sentence, return the setence will all it's letter transposed by 1 in the alphabet, but only if the letter is a-y.
 text = 'the quick brown fox jumps over the lazy dog'
 
 def encrypt_lol(text):
