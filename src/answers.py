@@ -29,3 +29,11 @@ def evens(nums):
     print([x for x in nums if x % 2 == 0])
 
 evens(nums)
+
+#Solution 5
+nums = [1, 2, 3, 7, 8, 100, 79, 333, 12, 18, 93]
+
+def odds(nums):
+    print([x for x in nums if x % 2 != 0])
+
+odds(nums)
