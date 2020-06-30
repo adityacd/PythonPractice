@@ -70,3 +70,12 @@ def vowels(text):
     print([x for x in text if x in vow])
 
 vowels(text)
+
+#Solution 10
+text = 'mathematics'
+
+def vowels_set(text):
+    vow = ['a', 'e', 'i', 'o', 'u']
+    print(list({x for x in text if x in vow}))
+
+vowels_set(text)
