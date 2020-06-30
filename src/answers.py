@@ -46,10 +46,18 @@ def positive(nums):
 
 positive(nums)
 
-#solution7
+#Solution 7
 nums = [1, 2, 3, -7, 8, 100, -79, 333, 12, -18, 93]
 
 def selective_stringify_nums(nums):
     print([str(x) for x in nums])
 
 selective_stringify_nums(nums)
+
+#Solution 8
+text = 'the quick brown fox jumps over the lazy dog'
+
+def words_not_the(text):
+    print([len(x) for x in [word for word in text.split()] if x != 'the'])
+
+words_not_the(text)
