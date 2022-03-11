@@ -1,3 +1,5 @@
+
+
 #Solution 1 :  Given a list of numbers, write a list comprehension that produces a copy of the list.
 nums = [1, 2, 3, 4, 5]
 
@@ -16,6 +18,10 @@ doubled(nums)
 
 #Solution 3 : Given a list of numbers, write a list comprehension that produces a list of the squares of each number.
 nums = [1, 2, 4, 6, 8, 100, 78]
+
+
+
+
 
 def squared(nums):
     print([x ** 2 for x in nums])
